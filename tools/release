@@ -27,7 +27,7 @@ GEM_SPEC="jekyll-theme-chirpy.gemspec"
 NODE_CONFIG="package.json"
 CHANGE_LOG="docs/CHANGELOG.md"
 
-JS_DIST="assets/js/dist"
+JS_DIST="_javascript"
 BACKUP_PATH="$(mktemp -d)"
 
 FILES=(
