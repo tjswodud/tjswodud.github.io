@@ -1,19 +1,20 @@
 <!-- footer -->
 <footer class="bg-dark footer-section">
+  <!-- <div class="text-center">
+    <h2 class="text-white font-primary">Contact</h2>
+  </div> -->
   <div class="section">
     <div class="container">
-      <div class="row">
+      <div class="row d-flex justify-content-center">
         <div class="col-md-4">
           <h5 class="text-light">Email</h5>
           <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.email }}</p>
         </div>
         <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.phone }}</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.address }}</p>
+          <h5 class="text-light">GitHub</h5>
+          <a href="{{ site.data.settings.github }}" class="paragraph-lg font-secondary">
+            {{ site.data.settings.github }}
+          </a>
         </div>
       </div>
     </div>

@@ -33,3 +33,15 @@ VERSION:	Versoin Number
 @import 'templates/about';
 
 @import 'templates/portfolio';
+
+@font-face {
+    font-family: 'sandbox-medium';
+    src: url('/assets/fonts/SB_M.ttf') format('truetype');
+    src: url('/assets/fonts/SB_M.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'sandbox-light';
+    src: url('/assets/fonts/SB_L.ttf') format('truetype');
+    src: url('/assets/fonts/SB_L.otf') format('opentype');
+}

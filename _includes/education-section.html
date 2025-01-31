@@ -14,7 +14,11 @@
           </div>
           <div>
             <p class="text-dark mb-1">{{ education.date }}</p>
-            <h4>{{ education.name }}</h4>
+            {% if education.url != "" %}
+              <h4><a href="{{ education.url }}">{{ education.name }}</a></h4>
+            {% else %}
+              <h4>{{ education.name }}</h4>
+            {% endif %}
             <p class="mb-0 text-light">{{ education.organization }}</p>
           </div>
         </div>
