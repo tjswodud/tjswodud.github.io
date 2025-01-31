@@ -128,6 +128,12 @@ portfolio-home-items:
     url: "https://www.youtube.com/watch?v=VCABVM0x_VI&list=PL9EsG3LxiqRlG40YvzqvrN4Lj__fayzKn",
     description: Unreal / 3D / 생존
   }
+  - {
+    name: Realistic Character Control<br>using Motion VAE,
+    image: "assets/images/portfolio/portfolio_8.png",
+    url: "https://www.youtube.com/watch?v=SGoXMTo-asY",
+    description: Character Animation / Deep Learning
+  }
 
 portfolio-link: /portfolio
 portfolio-btn-name: know more
