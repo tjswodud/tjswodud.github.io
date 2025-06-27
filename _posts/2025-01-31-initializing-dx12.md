@@ -9,4 +9,4 @@ tags:
     - [DirectX12, Graphics]
 ---
 
-<h4><a href="https://velog.io/@tjswodud/DirectX12-Initializing-DirectX-12">Read More</a></h4>
+<h4><a href="https://velog.io/@tjswodud/DirectX12-Initializing-DirectX-12" target="_blank">Read More</a></h4>
