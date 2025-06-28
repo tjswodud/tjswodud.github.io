@@ -24,14 +24,16 @@ layout: default
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h3 class="font-tertiary mb-3">{{ page.title | escape }}</h3>
+      <div class="col-lg-12 text-left">
+        <h3 class="font-tertiary mb-3">{{ page.title }}</h3>
         {% for tag in page.tags %}
           <span class="badge badge-success p-2">{{tag}}</span>
         {% endfor %}
         <p class="font-secondary mt-3">Published on {{ page.date | date: '%Y/%m/%d' }}</p>
-        <div class="content">
+        <div class="text-center" style="margin-bottom: 5%;">
           <img src="{{page.image | relative_url }}" class="img-fluid rounded" alt="{{page.title}}">
+        </div>
+        <div class="content">
           {{ content }}
         </div>
       </div>

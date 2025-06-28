@@ -138,6 +138,11 @@ portfolio-home-items:
 portfolio-link: /portfolio
 portfolio-btn-name: know more
 
+# Blog Page
+blog-label:
+  - { title: "논문 리뷰", type: "paper" }
+  - { title: "개발", type: "dev" }
+
 # Portfolio Page
 portfolio-label:
   - { title: "게임 개발", type: "game" }

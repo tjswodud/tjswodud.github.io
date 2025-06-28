@@ -5,6 +5,21 @@ title: Blogs
 <!-- blog -->
 <section class="section">
   <div class="container">
+    <!-- TODO: 카테고리 별로 나누기 -->
+    <!-- <div class="row mb-5">
+      <div class="col-12">
+        <div class="btn-group btn-group-toggle justify-content-center d-flex" data-toggle="buttons">
+          <label class="btn btn-sm btn-primary active">
+            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+          </label>
+          {% for label in site.data.settings.blog-label %}
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="{{ label.type }}" />{{ label.title }}
+          </label>
+          {% endfor %}
+        </div>
+      </div>
+    </div> -->
     <div class="row">
       {% for post in site.posts %}
       {% include post.html %}

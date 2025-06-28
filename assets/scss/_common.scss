@@ -23,13 +23,30 @@ body {
   justify-content: center;
 }
 
-ol,
-ul {
-  list-style-type: none;
-  margin: 0px;
+ul, ol {
+  padding-left: 1.5em;
+  margin-bottom: 1em;          // 목록 아래 여백
+  line-height: 1.8;            // 문단과 동일한 행간 유지
+}
+li {
+  line-height: 1.8;
+  margin-bottom: 0.5em;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  padding-left: 1.5em;
+  line-height: 1.8;
 }
 
 img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
   vertical-align: middle;
   border: 0;
 }
