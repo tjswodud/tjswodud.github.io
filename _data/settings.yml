@@ -34,6 +34,26 @@ blurb-btn-link: "/about"
 blurb-btn-name: know more
 
 #-------------------------------
+# Publication Section
+pubs-title: Publications
+pubs:
+- {
+    title-kor: "전문가 혼합 구조를 활용한 텍스트 기반 3D 모션 생성 성능 향상 연구",
+    title-eng: "Text-based 3D Motion Generation with a Mixture of Experts for Enhancing Performance",
+    authors: "<b>JaeYoung Seon</b>, Seong-Eun Hong, KyeongMin Kim, SeungWoo Woo, Hyoseok Hwang†, HyeongYeop Kang†",
+    conference: "Korea Computer Graphics Society (KCGS), Jul. 8 - 11, 2025"
+  }
+
+#-------------------------------
+# Awards Section
+awards-title: Awards
+awards:
+- {
+    name-kor: "2025 KCGS 우수논문상 우수상",
+    name-eng: "2025 KCGS Excellent Paper Award"
+  }
+
+#-------------------------------
 # Skills Section
 
 skills-title: Skills
