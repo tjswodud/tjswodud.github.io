@@ -15,7 +15,7 @@
           <div>
             <p class="text-dark mb-1">{{ education.date }}</p>
             {% if education.url != "" %}
-              <h4><a href="{{ education.url }}">{{ education.name }}</a></h4>
+              <h4><a href="{{ education.url }}" target="_blank">{{ education.name }}</a></h4>
             {% else %}
               <h4>{{ education.name }}</h4>
             {% endif %}
