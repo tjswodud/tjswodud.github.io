@@ -10,11 +10,11 @@
     <div class="row shuffle-wrapper">
       {% for item in site.data.settings.portfolio-home-items %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
-        <div class="position-relative rounded hover-wrapper">
+        <div class="position-relative rounded hover-wrapper" style="height:200px; display:flex; align-items:center; justify-content:center;">
           <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ item.url }}">{{ item.name }}</a>
+              <a class="btn btn-light btn-sm" href="{{ item.url }}" style="white-space: normal">{{ item.name }}</a>
               <p class="text-white">{{ item.description }}</p>
             </div>
           </div>
@@ -23,7 +23,7 @@
       {% endfor %}
     </div>
     <div class="col-lg-10 mx-auto text-center">
-      <a href="/portfolio" class="btn btn-primary">View More</a>
+      <a href="/portfolio" class="btn btn-primary" style="padding-top:8px; padding-bottom:8px;">View More</a>
     </div>
   </div>
 </section>

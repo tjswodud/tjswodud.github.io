@@ -40,7 +40,7 @@ pubs:
 - {
     title-kor: "전문가 혼합 구조를 활용한 텍스트 기반 3D 모션 생성 성능 향상 연구",
     title-eng: "Text-based 3D Motion Generation with a Mixture of Experts for Enhancing Performance",
-    authors: "<b>JaeYoung Seon</b>, Seong-Eun Hong, KyeongMin Kim, SeungWoo Woo, Hyoseok Hwang†, HyeongYeop Kang†",
+    authors: "<b>JaeYoung Seon<sup>1</sup></b>, Seong-Eun Hong, KyeongMin Kim, SeungWoo Woo, Hyoseok Hwang†, HyeongYeop Kang†",
     conference: "Korea Computer Graphics Society (KCGS), Vol. 31, No. 3, p.109-117",
     url: "https://doi.org/10.15701/kcgs.2025.31.3.109"
   }
@@ -51,7 +51,7 @@ awards-title: Awards
 awards:
 - {
     name-kor: "2025 KCGS 우수논문상 우수상",
-    name-eng: "2025 KCGS Excellent Paper Award"
+    name-eng: "2025 KCGS Best Paper Award"
   }
 
 #-------------------------------
@@ -150,10 +150,10 @@ portfolio-home-items:
     description: Unreal / 3D / 생존
   }
   - {
-    name: Realistic Character Control<br>using Motion VAE,
-    image: "assets/images/portfolio/portfolio_8.png",
-    url: "https://www.youtube.com/watch?v=SGoXMTo-asY",
-    description: Character Animation / Deep Learning
+    name: 전문가 혼합 구조를 활용한 텍스트 기반 3D 모션 생성 성능 향상 연구,
+    image: "assets/images/portfolio/portfolio_9.png",
+    url: "https://doi.org/10.15701/kcgs.2025.31.3.109",
+    description: Character Animation / Text to Motion
   }
 
 portfolio-link: /portfolio
@@ -219,3 +219,9 @@ portfolio-items:
     image: "assets/images/portfolio/portfolio_8.png"
     url: "https://www.youtube.com/watch?v=SGoXMTo-asY"
     description: Character Animation / Deep Learning
+  - name: 전문가 혼합 구조를 활용한 텍스트 기반 3D 모션 생성 성능 향상 연구
+    portfolio-type:
+      - type: "research"
+    image: "assets/images/portfolio/portfolio_9.png"
+    url: "https://doi.org/10.15701/kcgs.2025.31.3.109"
+    description: Character Animation / Text to Motion

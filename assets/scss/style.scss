@@ -45,3 +45,18 @@ VERSION:	Versoin Number
     src: url('/assets/fonts/SB_L.ttf') format('truetype');
     src: url('/assets/fonts/SB_L.otf') format('opentype');
 }
+
+@font-face {
+    font-family: 'esamanru-bold';
+    src: url('/assets/fonts/esamanru\ Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'esamanru-medium';
+    src: url('/assets/fonts/esamanru\ Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'esamanru-light';
+    src: url('/assets/fonts/esamanru\ Light.ttf') format('truetype');
+}
