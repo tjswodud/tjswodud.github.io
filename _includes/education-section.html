@@ -1,33 +1,101 @@
 {% if site.data.settings.education %}
-<!-- education -->
 <section class="section position-relative">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">{{ site.data.settings.education-title }}</h2>
-      </div>
+  <div class="container text-center">
+    <h2 class="section-title mb-5">{{ site.data.settings.education-title }}</h2>
+
+    <!-- 타임라인 전체 -->
+    <div class="education-timeline d-flex justify-content-center align-items-center flex-wrap">
+      <!-- 왼쪽 점선 -->
+      <div class="timeline-line"></div>
+
       {% for education in site.data.settings.education %}
-      <div class="col-lg-6 col-md-6 mb-80">
-        <div class="d-flex">
-          <div class="mr-lg-5 mr-3">
-            <i class="ti-book icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
-          </div>
-          <div>
-            <p class="text-dark mb-1">{{ education.date }}</p>
-            {% if education.url != "" %}
-              <h4><a href="{{ education.url }}" target="_blank">{{ education.name }}</a></h4>
-            {% else %}
-              <h4>{{ education.name }}</h4>
-            {% endif %}
-            <p class="mb-0 text-light">{{ education.organization }}</p>
-          </div>
+      <!-- 아이콘 -->
+      <div class="education-icon text-center mx-3">
+        <div class="icon-circle mb-3">
+          <i class="ti-book icon"></i>
         </div>
+        <p class="text-dark mb-1">{{ education.date }}</p>
+        <h4 class="mb-0">{{ education.name }}</h4>
+        <p class="mb-0 text-light">{{ education.organization }}</p>
       </div>
+
+      <!-- 중간 점선 -->
+      {% unless forloop.last %}
+      <div class="timeline-line"></div>
+      {% else %}
+      <!-- 마지막은 화살표 -->
+      <div class="timeline-arrow"></div>
+      {% endunless %}
       {% endfor %}
     </div>
   </div>
-  <!-- bg image -->
-  <img class="img-fluid edu-bg-image w-100" src="{{ site.baseurl }}/assets/images/backgrounds/education-bg.png" alt="bg-image">
+
+  <img class="img-fluid edu-bg-image w-100"
+       src="{{ site.baseurl }}/assets/images/backgrounds/education-bg.png"
+       alt="bg-image">
 </section>
-<!-- /education -->
+
+<style>
+/* ---- 타임라인 기본 ---- */
+.education-timeline {
+  position: relative;
+  width: 100%;
+}
+
+/* 일반 점선 */
+.timeline-line {
+  flex: 1;
+  border-top: 2px dashed #007bff;
+  height: 2px;
+  min-width: 40px;
+}
+
+/* 마지막 화살표 */
+.timeline-arrow {
+  flex: 1;
+  position: relative;
+  height: 2px;
+  border-top: 2px dashed #007bff;
+  min-width: 40px;
+}
+
+.timeline-arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 10px solid #007bff; /* 화살표 색 */
+}
+
+/* 아이콘 영역 */
+.education-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+/* 파란색 원 */
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border: 3px solid #007bff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.icon-circle .icon {
+  font-size: 32px;
+  color: #007bff;
+}
+</style>
 {% endif %}

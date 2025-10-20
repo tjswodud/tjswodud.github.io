@@ -15,6 +15,7 @@ copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.c
 menu:
   - { name: About, link: "/about" }
   - { name: Portfolio, link: "/portfolio" }
+  - { name: CV, link: "/cv" }
 
 #-------------------------------
 # Hero Section
@@ -33,8 +34,26 @@ blurb-btn-link: "/about"
 blurb-btn-name: know more
 
 #-------------------------------
+# Education Section
+
+education-title: Education
+education:
+  - {
+      name: 경희대학교 소프트웨어융합학과 학사,
+      url: "",
+      date: "2020.03~2024.02",
+      organization: "B.S. in Software Convergence, <br> Kyung Hee University",
+    }
+  - {
+      name: 경희대학교 인공지능학과 석사과정,
+      url: "",
+      date: "2024.03~",
+      organization: "M.S. in Artificial Intelligence, <br> Kyung Hee University",
+    }
+
+#-------------------------------
 # Publication Section
-pubs-title: Publications
+pubs-title: Publication
 pubs:
 - {
     title-kor: "Text-based 3D Motion Generation with a Mixture of Experts for Enhancing Performance",
@@ -56,7 +75,7 @@ awards-title: Awards
 awards:
 - {
     name-kor: "2025 KCGS 우수논문상 우수상",
-    name-eng: "2025 KCGS Best Paper Award"
+    description: '"전문가 혼합 구조를 활용한 텍스트 기반 3D 모션 생성 성능 향상 연구"'
   }
 
 #-------------------------------
@@ -66,13 +85,11 @@ skills-title: Skills
 skills:
   engines:
     - {
-        name: 언리얼 엔진,
-        subname: Unreal Engine,
+        name: Unreal Engine,
         icon: "unreal.png",
       }
     - {
-        name: 유니티,
-        subname: Unity,
+        name: Unity,
         icon: "unity.png",
       }
   languages:
@@ -101,6 +118,12 @@ experience:
       organization: "NCSOFT",
     }
   - {
+      name: Researcher,
+      icon: "iiixr.png",
+      date: "2023.06~",
+      organization: "IIIXR LAB",
+    }
+  - {
       name: 펄어비스X경희소융<br>인재양성 프로그램,
       icon: "pearl_abyss.png",
       date: "2023.03~2023.07",
@@ -111,30 +134,6 @@ experience:
       icon: "ncsoft.png",
       date: "2024.06~2024.08",
       organization: "NCSOFT",
-    }
-
-#-------------------------------
-# Education Section
-
-education-title: Education
-education:
-  - {
-      name: IIIXR LAB,
-      url: "https://iiixr.korea.ac.kr/",
-      date: "2023.06~Current",
-      organization: "Researcher in IIIXR LAB",
-    }
-  - {
-      name: 경희대학교 인공지능학과 석사과정,
-      url: "",
-      date: "2024.03~Current",
-      organization: "M.S. in Artificial Intelligence, <br> Kyung Hee University",
-    }
-  - {
-      name: 경희대학교 소프트웨어융합학과 학사,
-      url: "",
-      date: "2020.03~2024.02",
-      organization: "B.S. in Software Convergence, <br> Kyung Hee University",
     }
 
 #-------------------------------
@@ -225,3 +224,8 @@ portfolio-items:
     image: "assets/images/portfolio/portfolio_9.png"
     url: "https://doi.org/10.15701/kcgs.2025.31.3.109"
     description: Character Animation / Text to Motion
+
+#-------------------------------
+# CV (Section and Page)
+
+cv-link: /cv

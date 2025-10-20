@@ -1,23 +1,15 @@
 {% if site.data.settings.experience %}
-<!-- experience -->
 <section class="section">
   <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
+    <div class="row justify-content-center gap-5"> <!-- ✅ gap 추가 -->
+      <div class="col-lg-12 text-center mb-5">
         <h2 class="section-title">{{ site.data.settings.experience-title }}</h2>
       </div>
+
       {% for experience in site.data.settings.experience %}
-      <!-- <div class="col-lg-3 col-md-4 text-center">
-        <p class="mb-4"><img src="{{ site.baseurl }}/assets/images/experience/{{ experience.icon }}" width=auto height=118 alt="{{ site.data.settings.experience-title }} icon"></p>
-        <p class="mb-1">
-          {{ experience.date }}
-          <h4>{{ experience.name }}</h4>
-        <h6 class="text-light">{{ experience.organization }}</h6>
-        </p>
-      </div> -->
-      <div class="col-lg-3 col-md-4 text-center">
+      <div class="col-lg-3 col-md-4 text-center d-flex flex-column align-items-center">
         <!-- 이미지 고정 높이 박스 -->
-        <div style="height:200px; display:flex; align-items:center; justify-content:center;">
+        <div style="height:180px; display:flex; align-items:center; justify-content:center;">
           <img src="{{ site.baseurl }}/assets/images/experience/{{ experience.icon }}" 
                style="max-height:200px; width:auto;" 
                alt="{{ site.data.settings.experience-title }} icon">
@@ -30,5 +22,4 @@
     </div>
   </div>
 </section>
-<!-- ./experience -->
 {% endif %}
