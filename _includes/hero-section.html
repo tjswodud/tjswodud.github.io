@@ -1,5 +1,7 @@
 <!-- hero area -->
 <section class="hero-area bg-primary" id="parallax" style="padding-bottom:20px;">
+  <!-- <div class="hero-bg-image"></div> -->
+
   <div class="container">
     <div class="row">
       <div class="col-lg-11 mx-auto">
@@ -23,6 +25,37 @@
 <!-- /hero area -->
 
 <style>
+.hero-area {
+  position: relative;
+  overflow: hidden;
+}
+
+/* 배경 이미지를 섹션 안에서만 꽉 채우도록 */
+.hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('{{ site.baseurl }}/assets/images/backgrounds/bg1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+/* 내용이 배경보다 위에 보이도록 */
+.hero-area .container,
+.hero-social {
+  position: relative;
+  z-index: 1;
+}
+
+/* 소셜 아이콘 세로 정렬 */
+.hero-social {
+  margin-left: 3rem;
+}
+
 /* ✅ 아이콘 크기 조정 */
 .hero-area ul li i {
   font-size: 1.6rem;   /* 기본은 보통 1rem~1.2rem, 살짝 키움 */
@@ -33,4 +66,18 @@
 .hero-area ul li i:hover {
   transform: scale(1.15);
 }
+
+/* 모바일에서 간격 조금 줄이기 */
+@media (max-width: 767.98px) {
+  .hero-area {
+    padding: 150px 0 80px;
+  }
+  .hero-social {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
+
 </style>
