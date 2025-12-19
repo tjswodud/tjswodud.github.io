@@ -17,6 +17,7 @@
         <p class="text-dark mb-1">{{ education.date }}</p>
         <h4 class="mb-0">{{ education.name }}</h4>
         <p class="mb-0 text-light">{{ education.organization }}</p>
+        <p class="mb-0 text-light">GPA: {{ education.gpa }}</p>
       </div>
 
       <!-- 중간 점선 -->
@@ -97,5 +98,25 @@
   font-size: 32px;
   color: #007bff;
 }
+
+/* ---- 모바일 환경 ---- */
+@media (max-width: 768px) {
+  /* 점선과 화살표 제거 */
+  .timeline-line,
+  .timeline-arrow {
+    display: none;
+  }
+
+  /* 아이콘들을 세로로 정렬 */
+  .education-timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-icon {
+    margin-bottom: 2rem;
+  }
+}
+
 </style>
 {% endif %}
