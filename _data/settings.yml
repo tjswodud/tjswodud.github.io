@@ -43,12 +43,14 @@ education:
       url: "",
       date: "2020.03~2024.02",
       organization: "B.S. in Software Convergence, <br> Kyung Hee University",
+      gpa: "3.82 / 4.3"
     }
   - {
-      name: 경희대학교 인공지능학과 석사과정,
+      name: 경희대학교 인공지능학과 석사,
       url: "",
-      date: "2024.03~",
+      date: "2024.03~2026.02",
       organization: "M.S. in Artificial Intelligence, <br> Kyung Hee University",
+      gpa: "4.18 / 4.3"
     }
 
 #-------------------------------
@@ -118,9 +120,9 @@ experience:
       organization: "NCSOFT",
     }
   - {
-      name: Researcher,
+      name: Research Student,
       icon: "iiixr.png",
-      date: "2023.06~",
+      date: "2023.06~2026.02",
       organization: "IIIXR LAB",
     }
   - {
