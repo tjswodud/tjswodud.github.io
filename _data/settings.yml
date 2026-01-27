@@ -58,14 +58,20 @@ education:
 pubs-title: Publication
 pubs:
 - {
+    title-kor: "Event-T2M: Event-level Conditioning for Complex Text-to-Motion Synthesis",
+    authors: "<b>JaeYoung Seon*</b>, Seong-Eun Hong*, JuYeong Hwang, JongHwan Shin, and HyeongYeop Kang†",
+    conference: "International Conference on Learning Representations (ICLR), Apr. 23-27 2026, Rio de Janeiro, Brazil",
+    url: "https://openreview.net/pdf?id=mXPeXZ1KWT"
+  }
+- {
     title-kor: "Text-based 3D Motion Generation with a Mixture of Experts for Enhancing Performance",
-    authors: "<b>JaeYoung Seon<sup>1</sup></b>, Seong-Eun Hong, KyeongMin Kim, SeungWoo Woo, Hyoseok Hwang†, HyeongYeop Kang†",
+    authors: "<b>JaeYoung Seon</b>, Seong-Eun Hong, KyeongMin Kim, SeungWoo Woo, Hyoseok Hwang†, and HyeongYeop Kang†",
     conference: "Korea Computer Graphics Society (KCGS), Vol. 31, No. 3, p.109-117",
     url: "https://doi.org/10.15701/kcgs.2025.31.3.109"
   }
 - {
     title-kor: "How Does a Virtual Agent Decide Where to Look? Symbolic Cognitive Reasoning for Embodied Head Rotation",
-    authors: "Juyeong Hwang<sup>1</sup>, Seong-Eun Hong<sup>1</sup>, <b>JaeYoung Seon</b>, HyeongYeop Kang*",
+    authors: "JuYeong Hwang*, Seong-Eun Hong*, <b>JaeYoung Seon</b>, HyeongYeop Kang*",
     conference: "ACM SIGGRAPH Asia, Dec. 15-18 2025, Hong Kong",
     url: "https://dl.acm.org/doi/pdf/10.1145/3757377.3763849"
     # url: "https://doi.org/10.1145/3757377.3763849"
@@ -144,12 +150,6 @@ experience:
 # Portfolio Home Section
 portfolio-home-items:
   - {
-      name: UNTACT,
-      image: "assets/images/portfolio/portfolio_1.png",
-      url: "https://github.com/CompileBlue/UNTACT_SurvivalGame",
-      description: Unity / 2D / 생존
-    }
-  - {
     name: NUCLAIN,
     image: "assets/images/portfolio/portfolio_2.png",
     url: "https://www.youtube.com/watch?v=VCABVM0x_VI&list=PL9EsG3LxiqRlG40YvzqvrN4Lj__fayzKn",
@@ -159,6 +159,12 @@ portfolio-home-items:
     name: 전문가 혼합 구조를 활용한 텍스트 기반 3D 모션 생성 성능 향상 연구,
     image: "assets/images/portfolio/portfolio_9.png",
     url: "https://doi.org/10.15701/kcgs.2025.31.3.109",
+    description: Character Animation / Text to Motion
+  }
+  - {
+    name: "Event-T2M: Event-level Conditioning for Complex Text-to-Motion Synthesis",
+    image: "assets/images/portfolio/portfolio_10.png",
+    url: "https://openreview.net/pdf?id=mXPeXZ1KWT",
     description: Character Animation / Text to Motion
   }
 
@@ -226,6 +232,12 @@ portfolio-items:
     image: "assets/images/portfolio/portfolio_9.png"
     url: "https://doi.org/10.15701/kcgs.2025.31.3.109"
     description: Character Animation / Text to Motion
+  - {
+    name: "Event-T2M: Event-level Conditioning for Complex Text-to-Motion Synthesis",
+    image: "assets/images/portfolio/portfolio_10.png",
+    url: "https://openreview.net/pdf?id=mXPeXZ1KWT",
+    description: Character Animation / Text to Motion
+  }
 
 #-------------------------------
 # CV (Section and Page)

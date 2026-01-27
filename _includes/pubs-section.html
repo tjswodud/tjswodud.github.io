@@ -6,6 +6,12 @@
       <div class="col-lg-12 text-center">
         <h2 class="section-title">{{ site.data.settings.pubs-title }}</h2>
       </div>
+      <div class="divider m-0 mx-auto">
+        <p class="pub-note mb-5">
+          <i>∗ These authors contributed equally to this work.<br>
+          † Corresponding author.</i>
+        </p>        
+      </div>
       {% for pub in site.data.settings.pubs %}
       <div class="col-lg-12 col-md-6 mb-40">
         <div class="d-flex">
@@ -26,3 +32,13 @@
 </section>
 <!-- /pubs -->
 {% endif %}
+
+<style>
+
+.pub-note {
+  font-size: 0.8rem;
+  color: #6c757d; /* Bootstrap text-muted */
+  text-align: center;
+}
+
+</style>
