@@ -71,7 +71,7 @@ pubs:
   }
 - {
     title-kor: "How Does a Virtual Agent Decide Where to Look? Symbolic Cognitive Reasoning for Embodied Head Rotation",
-    authors: "JuYeong Hwang*, Seong-Eun Hong*, <b>JaeYoung Seon</b>, HyeongYeop Kang*",
+    authors: "JuYeong Hwang*, Seong-Eun Hong*, <b>JaeYoung Seon</b>, HyeongYeop Kang†",
     conference: "ACM SIGGRAPH Asia, Dec. 15-18 2025, Hong Kong",
     url: "https://dl.acm.org/doi/pdf/10.1145/3757377.3763849"
     # url: "https://doi.org/10.1145/3757377.3763849"
